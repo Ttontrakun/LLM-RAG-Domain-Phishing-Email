@@ -7,7 +7,7 @@ import os
 from nltk.translate.bleu_score import sentence_bleu
 
 # 2. ตั้งค่า API Key
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
 
 # 3. อ่านข้อมูลจากไฟล์ CSV และทำความสะอาด
 data = pd.read_csv("phishing_data.csv")
